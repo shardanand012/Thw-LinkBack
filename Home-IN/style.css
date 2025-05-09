@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1d2226;
+  color: #e4e6eb;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 250px 1fr 300px;
+  gap: 20px;
+  padding: 20px;
+}
+
+.sidebar, .feed, .rightbar {
+  background-color: #242526;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.profile-card h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.side-links a {
+  display: block;
+  margin: 10px 0;
+  color: #0a66c2;
+  text-decoration: none;
+}
+
+.post-box {
+  background-color: #3a3b3c;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.post-box input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.post-actions button {
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  background: #4b4f56;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.post {
+  margin-bottom: 20px;
+}
+
+.post img {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.rightbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.rightbar li {
+  margin-bottom: 10px;
+}

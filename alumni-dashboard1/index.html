@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn IT Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard">
+    <aside class="sidebar">
+      <div class="logo">🎓 learn IT</div>
+      <div class="profile">
+        <img src="https://via.placeholder.com/60" alt="Profile" class="avatar">
+        <h3>JON DEEK</h3>
+        <p>Student</p>
+      </div>
+      <nav>
+        <a class="active">My course</a>
+        <a>My tasks</a>
+        <a>Messages</a>
+        <a>Teachers</a>
+        <a>Achievements</a>
+        <a>Schedule</a>
+      </nav>
+      <div class="calendar">
+        <p>May 2025</p>
+        <table>
+          <tr><th>S</th><th>M</th><th>T</th><th>W</th><th>T</th><th>F</th><th>S</th></tr>
+          <tr><td> </td><td> </td><td> </td><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+          <tr><td>5</td><td class="today">6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td></tr>
+        </table>
+      </div>
+    </aside>
+
+    <main class="main">
+      <div class="header">
+        <input type="text" placeholder="Search" class="search">
+        <div class="user-info">
+          <span>Jon deek</span>
+          <img src="https://via.placeholder.com/40" class="avatar">
+        </div>
+      </div>
+
+      <div class="tabs">
+        <button class="active">Running course</button>
+        <button>Complete course</button>
+        <button>Favourite course</button>
+      </div>
+
+      <div class="courses">
+        <!-- Card 1 -->
+        <div class="card">
+          <h4>UX DESIGN BEGINNER COURSE</h4>
+          <p>Learn basic UX skills...</p>
+          <div class="progress-bar"><div class="progress" style="width: 94%;"></div></div>
+        </div>
+
+        <div class="card">
+          <h4>UI DESIGN BEGINNER COURSE</h4>
+          <p>Learn basic UI skills...</p>
+          <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+        </div>
+
+        <div class="card">
+          <h4>GRAPHIC DESIGN FULL COURSE</h4>
+          <p>Learn graphic design skills...</p>
+          <div class="progress-bar"><div class="progress" style="width: 98%;"></div></div>
+        </div>
+
+        <div class="card">
+          <h4>ENGLISH LEARNING COURSE</h4>
+          <p>Improve your English...</p>
+          <div class="progress-bar"><div class="progress" style="width: 88%;"></div></div>
+        </div>
+
+        <div class="card add-course">
+          <span>+ New Course</span>
+        </div>
+      </div>
+    </main>
+
+    <aside class="right-panel">
+      <div class="circle-score">
+        <svg>
+          <circle cx="50" cy="50" r="45"></circle>
+          <circle cx="50" cy="50" r="45" class="progress-circle"></circle>
+        </svg>
+        <div class="percent">95%</div>
+        <p>Test result</p>
+      </div>
+
+      <div class="friends">
+        <h4>Friends</h4>
+        <input type="text" placeholder="Search friends">
+        <ul>
+          <li><img src="https://via.placeholder.com/30"> Rosavaldez</li>
+          <li><img src="https://via.placeholder.com/30"> Rosavaldez</li>
+          <li><img src="https://via.placeholder.com/30"> Rosavaldez</li>
+        </ul>
+        <button>See all</button>
+      </div>
+    </aside>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

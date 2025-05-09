@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alumni-Student Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="logo">🎓 AlumniNet</div>
+      <ul class="nav">
+        <li class="active" onclick="showSection('dashboard')">Dashboard</li>
+        <li onclick="showSection('profile')">Profile</li>
+        <li onclick="loadForumPage()">Forum</li>
+        <li><a href="#">Connections</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">FrameWorks</a></li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <input type="text" placeholder="Search mentors, universities..." />
+        <div class="user">
+          <img src="https://i.pravatar.cc/40" alt="User" />
+          <span>Jon Deek</span>
+        </div>
+      </header>
+
+      <!-- Dashboard Section -->
+      <section id="dashboard" class="visible-section">
+        <div class="overview">
+          <div class="card">
+            <h3>Mentors Connected</h3>
+            <p>32</p>
+          </div>
+          <div class="card">
+            <h3>Events Attended</h3>
+            <p>12</p>
+          </div>
+          <div class="card">
+            <h3>Test Score</h3>
+            <p>95%</p>
+          </div>
+        </div>
+
+        <section class="courses">
+          <h2>Active Mentorships</h2>
+          <div class="course-grid">
+            <div class="course-card">
+              <h4>UX Design Mentorship</h4>
+              <p>94% Progress</p>
+            </div>
+            <div class="course-card">
+              <h4>University Guidance</h4>
+              <p>Completed</p>
+            </div>
+            <div class="course-card">
+              <h4>Scholarship Help</h4>
+              <p>85% Progress</p>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- Profile Section -->
+      <section id="profile" class="hidden-section">
+        <div class="profile-header">
+          <img src="https://i.pravatar.cc/120" alt="User Photo" />
+          <div>
+            <h1>Jon Deek</h1>
+            <p>Final Year B.Tech | CSE Department</p>
+            <p>📍 VIT Vellore</p>
+          </div>
+        </div>
+
+        <div class="profile-section bio">
+          <h2>About Me</h2>
+          <p>
+            Passionate about tech, design, and helping juniors achieve their goals. I've mentored 20+ students
+            in UI/UX, internships, and MS abroad prep.
+          </p>
+        </div>
+  
+<div class="container-skills">
+
+        <div class="profile-section education Education-box">
+          <h2 style="margin-left: 30%; margin-top: -10px; font-size: 25px;">Education</h2>
+          <ul>
+            <li><strong>B.Tech in Computer Science</strong> – VIT Vellore (2021–2025)</li>
+            <li><strong>Class XII – CBSE</strong> – Delhi Public School (2020)</li>
+            <li><strong>Class X – CBSE</strong> – Delhi Public School (2018)</li>
+          </ul>
+        </div>
+
+        <div class="profile-section skills Skills-Box">
+          <h2 style="margin-left: 20%; margin-top: -10px; font-size: 25px;">Skills & Interests</h2>
+          <p style="margin-top: 20px;">💻 JavaScript, Python, UI/UX, Figma, ReactJS</p>
+          <p style="margin-top: 10px;">🎯 Hackathons, Design Thinking, Mentorship</p>
+        </div>
+        <div class="profile-section socials social-box">
+          <h2 style="margin-left: 30%; margin-top: -10px; font-size: 25px;">Social Links</h2>
+          <p>
+            🔗 <div class="social-icons">
+              <a style="margin-left: 20px;" href="https://www.facebook.com/share/1UGeyi45xi/"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/sonu.kr6042/"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/shardanand-kumar-0a3146326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+          </div>
+          </p>
+        </div>
+
+        <div class="profile-section achievements achievement-box">
+          <h2 style="margin-left: 30%; margin-top: -10px; font-size: 25px;">Achievements</h2>
+          <ul>
+            <li>🏆 Winner - SIH Hackathon 2024</li>
+            <li>🎓 Mentor - UX Bootcamp '23</li>
+            <li>🌍 Exchange Program - NUS Singapore</li>
+          </ul>
+        </div>
+      </div>
+      </section>
+
+
+<!--Main2-section-->
+
+<div id="main-content">
+
+</div>
+
+    </main>
+  </div>
+
+
+<script src="script.js"></script>
+ 
+</body>
+</html>
